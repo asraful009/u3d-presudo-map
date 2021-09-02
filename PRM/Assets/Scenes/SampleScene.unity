@@ -169,7 +169,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mapWidth: 100
   mapHeight: 100
-  scale: 27.1
+  scale: 27.78
+  octaves: 4
+  persistance: 0.57
+  lacunarity: 1.48
+  seed: 0
+  offset: {x: 3.7, y: 1.8}
   AutoReGenerate: 1
 --- !u!114 &453610371
 MonoBehaviour:
