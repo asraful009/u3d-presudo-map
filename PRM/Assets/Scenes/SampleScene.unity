@@ -167,14 +167,37 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 427f76125f1230fcb8dbaf28c5db2edc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  drawMode: 1
   mapWidth: 100
   mapHeight: 100
-  scale: 27.78
+  scale: 27.48
   octaves: 4
   persistance: 0.57
   lacunarity: 1.48
   seed: 0
-  offset: {x: 3.7, y: 1.8}
+  offset: {x: 0, y: 0}
+  ragions:
+  - name: DeepWater
+    height: 0.21
+    color: {r: 0.29411766, g: 0.39607844, b: 0.5294118, a: 1}
+  - name: RiverWater
+    height: 0.36
+    color: {r: 0.3137255, g: 0.5372549, b: 0.7764706, a: 1}
+  - name: Sand
+    height: 0.42
+    color: {r: 0.90588236, g: 0.8784314, b: 0.7882353, a: 1}
+  - name: Gress
+    height: 0.59
+    color: {r: 0.7411765, g: 0.8235294, b: 0.7137255, a: 1}
+  - name: Forest
+    height: 0.78
+    color: {r: 0.09411765, g: 0.3019608, b: 0.2784314, a: 1}
+  - name: Mountain
+    height: 0.91
+    color: {r: 0.28627452, g: 0.32941177, b: 0.39215687, a: 1}
+  - name: Mountain-ice
+    height: 1
+    color: {r: 0.95686275, g: 0.95686275, b: 0.9490196, a: 1}
   AutoReGenerate: 1
 --- !u!114 &453610371
 MonoBehaviour:
