@@ -170,12 +170,12 @@ MonoBehaviour:
   drawMode: 1
   mapWidth: 100
   mapHeight: 100
-  scale: 27.48
-  octaves: 4
-  persistance: 0.57
-  lacunarity: 1.48
-  seed: 0
-  offset: {x: 0, y: 0}
+  scale: 24
+  octaves: 6
+  persistance: 0.43
+  lacunarity: 2.1
+  seed: 10
+  offset: {x: -3.3, y: 0}
   ragions:
   - name: DeepWater
     height: 0.21
